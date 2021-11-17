@@ -1,0 +1,15 @@
+LAYERS
+Silkscreen: WANT = black
+	Cut out the parts that would go over copper
+Solder mask: Entire thing = black (DON'T want)
+Copper: hardware, strings
+Edge.Cut: pick outline, hole
+
+* set up silkscreen in Inkscape
+* pull it into Photoshop; edit the copper layer (in black) and size both
+* pull BOTH silkscreen & copper into kicad
+* block solder mask (F.Mask)
+
+WON'T do silks over no mask
+
+Make little video of LED testing
